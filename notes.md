@@ -21,9 +21,18 @@ and agar hum esko reverse karvana chaiate hai to use the max in front of the bre
 grouping of mutliple classes into the one class is called the apply directive
 by using the appy directive we can merge all the class of one property into one another                                          
 
-so app
+how to add the layer directive in css 
+<!-- so remember one thing that ke agar humko apni custom classes lani hai to we have to put our apply directive class befiroe the utilites class so that hum tailwind ke class ke upar aaye -->
 
+layers directive mebascially koi bhi class likege to vo usko us layer ke last me dal dete hai at the end 
+matlab ke koi bhi class jo bhi layers me likhga vo last of the layer me dal de jayege 
 
+means ke agar hum koi bhi class banate hai inside the layer directive so vo us layer ke last me jake append ho jayege and it will be a apert of that class 
+any class that we made inside the layer directive of the layer will make the class at the last append class in it 
+
+<!-- so by using the layer directive hum ek apn custom class ko ya to utility ya fir components me dal skte hai  -->
+
+so use the apply directive only when there is reudable of the classes very much and we can combine those classes into one class name only 
 
 
 
