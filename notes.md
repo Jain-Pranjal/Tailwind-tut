@@ -18,8 +18,10 @@ md matlab 768 ke baad property apply hogi
 and agar hum esko reverse karvana chaiate hai to use the max in front of the breakpoints 
 
 
+grouping of mutliple classes into the one class is called the apply directive
+by using the appy directive we can merge all the class of one property into one another                                          
 
-
+so app
 
 
 

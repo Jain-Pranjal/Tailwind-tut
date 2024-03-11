@@ -1,11 +1,19 @@
 @tailwind base;
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
 @tailwind components;
+.btn{
+  @apply mx-14 py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 
+}
+
 @tailwind utilities;
 
-.poppins-extrabold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-    
+
+.smile{
+  @apply text-2xl text-red-500
+
+}
+
+
+/* what we use is the utilities class of the tailwind so if we want to use our custom one then we have ti use befor ethe utilities class of the taiwlind */
+/* ao baically agar apni customclass add karni hai to use it after the utuilities class na dgrouping of all the clas inisde one class is done by apply directive property 
+ */
+
