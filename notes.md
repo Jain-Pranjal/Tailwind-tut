@@ -34,8 +34,10 @@ any class that we made inside the layer directive of the layer will make the cla
 
 so use the apply directive only when there is reudable of the classes very much and we can combine those classes into one class name only 
 
+to basially agar extending karna hai config file ko so we can use that also by doing the changes into the config file 
+<code>npx tailwindcss init anyname --full</code>
 
-
+- now we can do the changes in the tailwind config file  by adding any custom properties that are not present in it 
 
 
 
