@@ -40,7 +40,12 @@ to basially agar extending karna hai config file ko so we can use that also by d
 - now we can do the changes in the tailwind config file  by adding any custom properties that are not present in it 
 
 
+# npm run build 
+basically by using this command we can build the productuon package by using the build 
+so agar humko ek producion bundle banaana hota hai then we an use the npm rn build jo ke vite ke through aapka ek production bundle bana dega and from that we can deploy static sites on anywhere 
 
+i have to again build the production bundle jab bhi hum npm run build karege to usse ek dist folder banega and then hum apni static website ko kahi par bhi deploy kar skte hai 
+so the dist folder actually goes into the production bundle 
 
 
 

@@ -4,7 +4,8 @@
   "description": "Here i will be practicing the new framework for the css",
   "main": "index.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
   },
   "keywords": [],
   "author": "Pranjal",
