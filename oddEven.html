@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd Even </title>
+</head>
+<body class="bg-slate-50">
+    <div class="p-72 gap-6 pb-2">
+        Enter the Number : <input type="text" class="border hover:bg-slate-100 w-72 " id="num">
+        <div class="flex flex-col mt-5">
+            <button type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 w-fit " id="submit">Check value </button>
+        </div>
+            
+    </div>
+    <span class="font-bold flex justify-center text-2xl" id="ans">
+        The value is : 
+    </span>
+    <script>
+        document.getElementById('submit').addEventListener('click', function(){
+            var num = document.getElementById('num').value;
+            let ans = document.getElementById('ans');
+            ans.innerHTML=""
+            if(num % 2 === 0){
+                document.getElementById("ans").innerHTML= "The value is Even";
+            }else{
+                document.getElementById("ans").innerHTML= "The value is Odd";
+            }
+        });
+    </script>
+</body>
+</html>
