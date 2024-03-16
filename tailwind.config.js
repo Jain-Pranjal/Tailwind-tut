@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       fontSize: {
         '10xl': ['10rem', { lineHeight: '1.2' }]
+      },
+      colors: {
+        offwhite: '#f2f2f2'
       }
     },
   },
