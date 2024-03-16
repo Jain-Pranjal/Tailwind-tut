@@ -48,7 +48,10 @@ i have to again build the production bundle jab bhi hum npm run build karege to 
 so the dist folder actually goes into the production bundle 
 
 
+<!-- in felx box we can also set the order ke kab konsa element ayega in the ordr of the tailwind flex  -->
 
+
+for using custom values use the [] in class in which we can add our own custom values 
 
 
 

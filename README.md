@@ -1,1 +1,2 @@
 Here i will be practicing the new framework for the css
+For using the Tailwind CSS always we have to move for the mobile first approach so that according to this we can adjust the breakpoints and maintain the sites responsive
